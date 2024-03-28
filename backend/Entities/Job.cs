@@ -8,7 +8,7 @@ namespace backend.Entities
 {
     public class Job : BaseEntity
     {
-        public string Title { get; set; }
+        public string Title { get; set; } = string.Empty;
         public JobLevel Level { get; set; }
 
         // Relations
